@@ -1,0 +1,42 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+.namehaighlit {
+  color: orange;
+}
+.hader-top {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.hader-top img {
+  width: 100%;
+}
+.first-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+section {
+  height: 500px;
+}
+.buttonlink {
+  text-decoration: none;
+  background-color: #ff805f;
+  color: white;
+  padding: 10px 40px;
+  font-weight: 700;
+  border-radius: 5px;
+  font-size: 17px;
+  background-image: linear-gradient(45 deg, lightsalmon, tomato);
+}
+.buttonlink:hover {
+  color: green;
+  background-color: #ffb925;
+  font-size: 20px;
+  font-weight: 700;
+}
